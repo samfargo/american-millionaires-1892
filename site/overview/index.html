@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>American Millionaires, 1892</title>
+    <link rel="stylesheet" href="/assets/styles.css" />
+  </head>
+  <body>
+    <div id="top"></div>
+    <div class="page">
+      <div class="shell">
+        <header class="site-header">
+          <div class="brand">
+            <a class="brand__title" href="/">American Millionaires, 1892</a>
+            <div class="brand__subtitle">
+              Digitzed record of The Tribune Monthly's American Millionaires edition.
+            </div>
+          </div>
+          <nav class="site-nav" aria-label="Primary">
+            <a href="/">Home</a>
+            <a href="/directory/">Directory</a>
+            <a href="/overview/">Overview</a>
+          </nav>
+        </header>
+
+        <main class="stack">
+          <section>
+            <h1 class="section-title">Overview</h1>
+            <div class="legend">
+              <a class="pill" href="#state-totals">Totals by state</a>
+              <a class="pill" href="#city-totals">Totals by city</a>
+              <a class="pill" href="#industry-totals">Totals by industry</a>
+            </div>
+          </section>
+
+          <section class="stack" id="state-totals">
+            <h2 class="section-title" style="margin-bottom: 6px;">Totals by state</h2>
+            <div class="table-wrap">
+              <table>
+                <thead>
+                  <tr>
+                    <th>
+                      <button class="sort-button" id="state-sort-name" type="button">
+                        State
+                      </button>
+                    </th>
+                    <th>
+                      <button class="sort-button" id="state-sort-count" type="button">
+                        Count
+                      </button>
+                    </th>
+                  </tr>
+                </thead>
+                <tbody id="state-body">
+                  <tr>
+                    <td colspan="2" class="empty-state">Loading state totals...</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+
+          <section class="stack" id="city-totals">
+            <h2 class="section-title" style="margin-bottom: 6px;">
+              Totals by city
+            </h2>
+            <div class="filters">
+              <div>
+                <label for="city-state-select">State</label>
+                <select id="city-state-select">
+                  <option value="">Select a state</option>
+                </select>
+              </div>
+            </div>
+            <div class="table-wrap">
+              <table>
+                <thead>
+                  <tr>
+                    <th>
+                      <button class="sort-button" id="city-sort-name" type="button">
+                        City
+                      </button>
+                    </th>
+                    <th>
+                      <button class="sort-button" id="city-sort-count" type="button">
+                        Count
+                      </button>
+                    </th>
+                  </tr>
+                </thead>
+                <tbody id="city-body">
+                  <tr>
+                    <td colspan="2" class="empty-state">
+                      Choose a state to view city totals.
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+
+          <section class="stack" id="industry-totals">
+            <h2 class="section-title" style="margin-bottom: 6px;">
+              Totals by industry
+            </h2>
+            <div class="table-wrap">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Industry</th>
+                    <th>Count</th>
+                  </tr>
+                </thead>
+                <tbody id="industry-body">
+                  <tr>
+                    <td colspan="2" class="empty-state">Loading industries...</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+        </main>
+
+      </div>
+    </div>
+
+    <a class="back-to-top" href="#top">Back to top</a>
+    <script type="module" src="/assets/stats.js"></script>
+  </body>
+</html>

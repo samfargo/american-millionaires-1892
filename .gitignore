@@ -1,0 +1,6 @@
+*.jp2
+*.png
+!site/
+!site/**/
+!site/**/*.jp2
+!site/**/*.png

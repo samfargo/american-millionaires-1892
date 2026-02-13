@@ -1,0 +1,178 @@
+[
+  {
+    "state": "ALABAMA",
+    "count": 8
+  },
+  {
+    "state": "ARKANSAS",
+    "count": 6
+  },
+  {
+    "state": "CALIFORNIA",
+    "count": 192
+  },
+  {
+    "state": "COLORADO",
+    "count": 39
+  },
+  {
+    "state": "CONNECTICUT",
+    "count": 79
+  },
+  {
+    "state": "DELAWARE",
+    "count": 11
+  },
+  {
+    "state": "DISTRICT OF COLUMBIA",
+    "count": 32
+  },
+  {
+    "state": "FLORIDA",
+    "count": 6
+  },
+  {
+    "state": "GEORGIA",
+    "count": 9
+  },
+  {
+    "state": "IDAHO",
+    "count": 2
+  },
+  {
+    "state": "ILLINOIS",
+    "count": 316
+  },
+  {
+    "state": "INDIANA",
+    "count": 36
+  },
+  {
+    "state": "IOWA",
+    "count": 25
+  },
+  {
+    "state": "KENTUCKY",
+    "count": 22
+  },
+  {
+    "state": "LOUISIANA",
+    "count": 35
+  },
+  {
+    "state": "MAINE",
+    "count": 15
+  },
+  {
+    "state": "MARYLAND",
+    "count": 59
+  },
+  {
+    "state": "MASSACHUSETTS",
+    "count": 296
+  },
+  {
+    "state": "MICHIGAN",
+    "count": 90
+  },
+  {
+    "state": "MINNESOTA",
+    "count": 88
+  },
+  {
+    "state": "MISSISSIPPI",
+    "count": 2
+  },
+  {
+    "state": "MISSOURI",
+    "count": 90
+  },
+  {
+    "state": "MONTANA",
+    "count": 18
+  },
+  {
+    "state": "NEBRASKA",
+    "count": 22
+  },
+  {
+    "state": "NEW HAMPSHIRE",
+    "count": 14
+  },
+  {
+    "state": "NEW JERSEY",
+    "count": 124
+  },
+  {
+    "state": "NEW MEXICO",
+    "count": 3
+  },
+  {
+    "state": "NEW YORK",
+    "count": 1508
+  },
+  {
+    "state": "NORTH CAROLINA",
+    "count": 14
+  },
+  {
+    "state": "NORTH DAKOTA",
+    "count": 1
+  },
+  {
+    "state": "OHIO",
+    "count": 207
+  },
+  {
+    "state": "OREGON",
+    "count": 18
+  },
+  {
+    "state": "PENNSYLVANIA",
+    "count": 379
+  },
+  {
+    "state": "RHODE ISLAND",
+    "count": 46
+  },
+  {
+    "state": "SOUTH CAROLINA",
+    "count": 9
+  },
+  {
+    "state": "TENNESSEE",
+    "count": 17
+  },
+  {
+    "state": "TEXAS",
+    "count": 57
+  },
+  {
+    "state": "UTAH",
+    "count": 16
+  },
+  {
+    "state": "VERMONT",
+    "count": 13
+  },
+  {
+    "state": "VIRGINIA",
+    "count": 23
+  },
+  {
+    "state": "WASHINGTON",
+    "count": 27
+  },
+  {
+    "state": "WEST VIRGINIA",
+    "count": 5
+  },
+  {
+    "state": "WISCONSIN",
+    "count": 68
+  },
+  {
+    "state": "WYOMING",
+    "count": 1
+  }
+]

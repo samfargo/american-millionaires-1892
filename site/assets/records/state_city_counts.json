@@ -1,0 +1,2096 @@
+{
+  "states": [
+    {
+      "state": "ALABAMA",
+      "cities": [
+        {
+          "city": "BIRMINGHAM",
+          "count": 5
+        },
+        {
+          "city": "ANNISTON",
+          "count": 1
+        },
+        {
+          "city": "GADSDEN",
+          "count": 1
+        },
+        {
+          "city": "MONTGOMERY",
+          "count": 1
+        }
+      ],
+      "count": 8
+    },
+    {
+      "state": "ARKANSAS",
+      "cities": [
+        {
+          "city": "CITY OF LITTLE ROCK",
+          "count": 6
+        }
+      ],
+      "count": 6
+    },
+    {
+      "state": "CALIFORNIA",
+      "cities": [
+        {
+          "city": "SAN FRANCISCO",
+          "count": 156
+        },
+        {
+          "city": "LOS ANGELES",
+          "count": 14
+        },
+        {
+          "city": "SACRAMENTO",
+          "count": 11
+        },
+        {
+          "city": "OAKLAND",
+          "count": 4
+        },
+        {
+          "city": "CHICO",
+          "count": 2
+        },
+        {
+          "city": "BAKERSFIELD",
+          "count": 1
+        },
+        {
+          "city": "CHINO RANCH",
+          "count": 1
+        },
+        {
+          "city": "RIVERSIDE",
+          "count": 1
+        },
+        {
+          "city": "SAN JOSE",
+          "count": 1
+        },
+        {
+          "city": "WILLIAMS",
+          "count": 1
+        }
+      ],
+      "count": 192
+    },
+    {
+      "state": "COLORADO",
+      "cities": [
+        {
+          "city": "DENVER",
+          "count": 33
+        },
+        {
+          "city": "MANITOU SPRINGS",
+          "count": 2
+        },
+        {
+          "city": "COLORADO SPRINGS",
+          "count": 1
+        },
+        {
+          "city": "CREEDE",
+          "count": 1
+        },
+        {
+          "city": "GEORGETOWN",
+          "count": 1
+        },
+        {
+          "city": "PUEBLO",
+          "count": 1
+        }
+      ],
+      "count": 39
+    },
+    {
+      "state": "CONNECTICUT",
+      "cities": [
+        {
+          "city": "STAMFORD",
+          "count": 16
+        },
+        {
+          "city": "NEW-HAVEN",
+          "count": 13
+        },
+        {
+          "city": "BRIDGEPORT",
+          "count": 10
+        },
+        {
+          "city": "HARTFORD",
+          "count": 10
+        },
+        {
+          "city": "MERIDEN",
+          "count": 8
+        },
+        {
+          "city": "NORWICH",
+          "count": 5
+        },
+        {
+          "city": "MIDDLETOWN",
+          "count": 3
+        },
+        {
+          "city": "GREENWICH",
+          "count": 2
+        },
+        {
+          "city": "ANSONIA",
+          "count": 1
+        },
+        {
+          "city": "CROMWELL",
+          "count": 1
+        },
+        {
+          "city": "FAIRFIELD",
+          "count": 1
+        },
+        {
+          "city": "LIME ROCK",
+          "count": 1
+        },
+        {
+          "city": "NAUGATUCK",
+          "count": 1
+        },
+        {
+          "city": "NEW-BRITAIN",
+          "count": 1
+        },
+        {
+          "city": "NORWALK",
+          "count": 1
+        },
+        {
+          "city": "PORTLAND",
+          "count": 1
+        },
+        {
+          "city": "ROCKVILLE",
+          "count": 1
+        },
+        {
+          "city": "SOUTHPORT",
+          "count": 1
+        },
+        {
+          "city": "THOMASTON",
+          "count": 1
+        },
+        {
+          "city": "WEST WINSTED",
+          "count": 1
+        }
+      ],
+      "count": 79
+    },
+    {
+      "state": "DELAWARE",
+      "cities": [
+        {
+          "city": "WILMINGTON",
+          "count": 10
+        },
+        {
+          "city": "LEWES",
+          "count": 1
+        }
+      ],
+      "count": 11
+    },
+    {
+      "state": "DISTRICT OF COLUMBIA",
+      "cities": [
+        {
+          "city": "null",
+          "count": 32
+        }
+      ],
+      "count": 32
+    },
+    {
+      "state": "FLORIDA",
+      "cities": [
+        {
+          "city": "KEY WEST",
+          "count": 2
+        },
+        {
+          "city": "OCALA",
+          "count": 1
+        },
+        {
+          "city": "PENSACOLA",
+          "count": 1
+        },
+        {
+          "city": "SANFORD",
+          "count": 1
+        },
+        {
+          "city": "ST. AUGUSTINE",
+          "count": 1
+        }
+      ],
+      "count": 6
+    },
+    {
+      "state": "GEORGIA",
+      "cities": [
+        {
+          "city": "CITY OF ATLANTA",
+          "count": 4
+        },
+        {
+          "city": "SAVANNAH",
+          "count": 2
+        },
+        {
+          "city": "AUGUSTA",
+          "count": 1
+        },
+        {
+          "city": "GROVETON",
+          "count": 1
+        },
+        {
+          "city": "LITHIA SPRINGS",
+          "count": 1
+        }
+      ],
+      "count": 9
+    },
+    {
+      "state": "IDAHO",
+      "cities": [
+        {
+          "city": "BOISE CITY",
+          "count": 2
+        }
+      ],
+      "count": 2
+    },
+    {
+      "state": "ILLINOIS",
+      "cities": [
+        {
+          "city": "CITY OF CHICAGO",
+          "count": 280
+        },
+        {
+          "city": "PEORIA",
+          "count": 7
+        },
+        {
+          "city": "QUINCY",
+          "count": 4
+        },
+        {
+          "city": "DE KALB",
+          "count": 3
+        },
+        {
+          "city": "DECATUR",
+          "count": 3
+        },
+        {
+          "city": "ELGIN",
+          "count": 3
+        },
+        {
+          "city": "ROCK ISLAND",
+          "count": 3
+        },
+        {
+          "city": "BLOOMINGTON",
+          "count": 2
+        },
+        {
+          "city": "WARSAW",
+          "count": 2
+        },
+        {
+          "city": "CABLE",
+          "count": 1
+        },
+        {
+          "city": "CAIRO",
+          "count": 1
+        },
+        {
+          "city": "FERNWOOD",
+          "count": 1
+        },
+        {
+          "city": "MOLINE",
+          "count": 1
+        },
+        {
+          "city": "NATIONAL STOCK YARDS",
+          "count": 1
+        },
+        {
+          "city": "PANA",
+          "count": 1
+        },
+        {
+          "city": "SPRINGFIELD",
+          "count": 1
+        },
+        {
+          "city": "TAYLORSVILLE",
+          "count": 1
+        },
+        {
+          "city": "WAUKEGAN",
+          "count": 1
+        }
+      ],
+      "count": 316
+    },
+    {
+      "state": "INDIANA",
+      "cities": [
+        {
+          "city": "EVANSVILLE",
+          "count": 7
+        },
+        {
+          "city": "INDIANAPOLIS",
+          "count": 7
+        },
+        {
+          "city": "TERRE HAUTE",
+          "count": 5
+        },
+        {
+          "city": "NEW-ALBANY",
+          "count": 3
+        },
+        {
+          "city": "SOUTH BEND",
+          "count": 3
+        },
+        {
+          "city": "CITY OF DELPHI",
+          "count": 2
+        },
+        {
+          "city": "FORT WAYNE",
+          "count": 2
+        },
+        {
+          "city": "LAFAYETTE",
+          "count": 2
+        },
+        {
+          "city": "MADISON",
+          "count": 2
+        },
+        {
+          "city": "GREENFIELD",
+          "count": 1
+        },
+        {
+          "city": "PERU",
+          "count": 1
+        },
+        {
+          "city": "RICHMOND",
+          "count": 1
+        }
+      ],
+      "count": 36
+    },
+    {
+      "state": "IOWA",
+      "cities": [
+        {
+          "city": "CLINTON",
+          "count": 4
+        },
+        {
+          "city": "DES MOINES",
+          "count": 4
+        },
+        {
+          "city": "SIOUX CITY",
+          "count": 4
+        },
+        {
+          "city": "CEDAR RAPIDS",
+          "count": 3
+        },
+        {
+          "city": "BURLINGTON",
+          "count": 2
+        },
+        {
+          "city": "DUBUQUE",
+          "count": 2
+        },
+        {
+          "city": "CHARITON",
+          "count": 1
+        },
+        {
+          "city": "CITY OF AFTON",
+          "count": 1
+        },
+        {
+          "city": "COUNCIL BLUFFS",
+          "count": 1
+        },
+        {
+          "city": "KEOSANQUA",
+          "count": 1
+        },
+        {
+          "city": "LYONS",
+          "count": 1
+        },
+        {
+          "city": "OTTUMWA",
+          "count": 1
+        }
+      ],
+      "count": 25
+    },
+    {
+      "state": "KENTUCKY",
+      "cities": [
+        {
+          "city": "LOUISVILLE",
+          "count": 15
+        },
+        {
+          "city": "COVINGTON",
+          "count": 2
+        },
+        {
+          "city": "CITY OF ASHLAND",
+          "count": 1
+        },
+        {
+          "city": "FRANKFORT",
+          "count": 1
+        },
+        {
+          "city": "HENDERSON",
+          "count": 1
+        },
+        {
+          "city": "PADUCAH",
+          "count": 1
+        },
+        {
+          "city": "PARIS",
+          "count": 1
+        }
+      ],
+      "count": 22
+    },
+    {
+      "state": "LOUISIANA",
+      "cities": [
+        {
+          "city": "CITY OF NEW-ORLEANS",
+          "count": 35
+        }
+      ],
+      "count": 35
+    },
+    {
+      "state": "MAINE",
+      "cities": [
+        {
+          "city": "BANGOR",
+          "count": 2
+        },
+        {
+          "city": "CALAIS",
+          "count": 2
+        },
+        {
+          "city": "PORTLAND",
+          "count": 2
+        },
+        {
+          "city": "BATH",
+          "count": 1
+        },
+        {
+          "city": "BELFAST",
+          "count": 1
+        },
+        {
+          "city": "CAMDEN",
+          "count": 1
+        },
+        {
+          "city": "CITY OF AUGUSTA",
+          "count": 1
+        },
+        {
+          "city": "DEERING",
+          "count": 1
+        },
+        {
+          "city": "EAST WINTHROP",
+          "count": 1
+        },
+        {
+          "city": "GARDINER",
+          "count": 1
+        },
+        {
+          "city": "SKOWHEGAN",
+          "count": 1
+        },
+        {
+          "city": "THOMASTON",
+          "count": 1
+        }
+      ],
+      "count": 15
+    },
+    {
+      "state": "MARYLAND",
+      "cities": [
+        {
+          "city": "CITY OF BALTIMORE",
+          "count": 56
+        },
+        {
+          "city": "CHESTERTOWN",
+          "count": 1
+        },
+        {
+          "city": "CUMBERLAND",
+          "count": 1
+        },
+        {
+          "city": "PORT DEPOSIT",
+          "count": 1
+        }
+      ],
+      "count": 59
+    },
+    {
+      "state": "MASSACHUSETTS",
+      "cities": [
+        {
+          "city": "CITY OF BOSTON",
+          "count": 217
+        },
+        {
+          "city": "WORCESTER",
+          "count": 13
+        },
+        {
+          "city": "NEW-BEDFORD",
+          "count": 9
+        },
+        {
+          "city": "LYNN",
+          "count": 6
+        },
+        {
+          "city": "SPRINGFIELD",
+          "count": 6
+        },
+        {
+          "city": "HOLYOKE",
+          "count": 5
+        },
+        {
+          "city": "SALEM",
+          "count": 5
+        },
+        {
+          "city": "DALTON",
+          "count": 4
+        },
+        {
+          "city": "FITCHBURG",
+          "count": 4
+        },
+        {
+          "city": "ORANGE",
+          "count": 3
+        },
+        {
+          "city": "CAMBRIDGE",
+          "count": 2
+        },
+        {
+          "city": "LOWELL",
+          "count": 2
+        },
+        {
+          "city": "MONSON",
+          "count": 2
+        },
+        {
+          "city": "NORTH ATTLEBOROUGH",
+          "count": 2
+        },
+        {
+          "city": "EAST HAMPTON",
+          "count": 1
+        },
+        {
+          "city": "FALL RIVER",
+          "count": 1
+        },
+        {
+          "city": "FRANKLIN",
+          "count": 1
+        },
+        {
+          "city": "GREAT BARRINGTON",
+          "count": 1
+        },
+        {
+          "city": "GROVELAND",
+          "count": 1
+        },
+        {
+          "city": "HOPEDALE",
+          "count": 1
+        },
+        {
+          "city": "LANCASTER",
+          "count": 1
+        },
+        {
+          "city": "METHUEN",
+          "count": 1
+        },
+        {
+          "city": "NEWTON",
+          "count": 1
+        },
+        {
+          "city": "NORTH ADAMS",
+          "count": 1
+        },
+        {
+          "city": "NORTH ANDOVER",
+          "count": 1
+        },
+        {
+          "city": "PEPPERELL",
+          "count": 1
+        },
+        {
+          "city": "TAUNTON",
+          "count": 1
+        },
+        {
+          "city": "WALTHAM",
+          "count": 1
+        },
+        {
+          "city": "WEBSTER",
+          "count": 1
+        },
+        {
+          "city": "WHITINSVILLE",
+          "count": 1
+        }
+      ],
+      "count": 296
+    },
+    {
+      "state": "MICHIGAN",
+      "cities": [
+        {
+          "city": "DETROIT",
+          "count": 42
+        },
+        {
+          "city": "CITY OF ALPENA",
+          "count": 8
+        },
+        {
+          "city": "MANISTEE",
+          "count": 7
+        },
+        {
+          "city": "SAGINAW",
+          "count": 7
+        },
+        {
+          "city": "MUSKEGON",
+          "count": 4
+        },
+        {
+          "city": "BAY CITY",
+          "count": 3
+        },
+        {
+          "city": "GRAND RAPIDS",
+          "count": 3
+        },
+        {
+          "city": "JACKSON",
+          "count": 3
+        },
+        {
+          "city": "MARQUETTE",
+          "count": 2
+        },
+        {
+          "city": "ALMA",
+          "count": 1
+        },
+        {
+          "city": "CHEBOYGAN",
+          "count": 1
+        },
+        {
+          "city": "FLINT",
+          "count": 1
+        },
+        {
+          "city": "GRAND HAVEN",
+          "count": 1
+        },
+        {
+          "city": "LUDINGTON",
+          "count": 1
+        },
+        {
+          "city": "MANISTIQUE",
+          "count": 1
+        },
+        {
+          "city": "MARINE CITY",
+          "count": 1
+        },
+        {
+          "city": "MENOMINEE",
+          "count": 1
+        },
+        {
+          "city": "NILES",
+          "count": 1
+        },
+        {
+          "city": "SAINT JOHN\u2019S",
+          "count": 1
+        },
+        {
+          "city": "TRAVERSE CITY",
+          "count": 1
+        }
+      ],
+      "count": 90
+    },
+    {
+      "state": "MINNESOTA",
+      "cities": [
+        {
+          "city": "MINNEAPOLIS",
+          "count": 44
+        },
+        {
+          "city": "ST. PAUL",
+          "count": 28
+        },
+        {
+          "city": "WINONA",
+          "count": 5
+        },
+        {
+          "city": "CITY OF DULUTH",
+          "count": 4
+        },
+        {
+          "city": "MANKATO",
+          "count": 2
+        },
+        {
+          "city": "STILLWATER",
+          "count": 2
+        },
+        {
+          "city": "RED WING",
+          "count": 1
+        },
+        {
+          "city": "ROCHESTER",
+          "count": 1
+        },
+        {
+          "city": "ST. CLOUD",
+          "count": 1
+        }
+      ],
+      "count": 88
+    },
+    {
+      "state": "MISSISSIPPI",
+      "cities": [
+        {
+          "city": "NATCHEZ",
+          "count": 2
+        }
+      ],
+      "count": 2
+    },
+    {
+      "state": "MISSOURI",
+      "cities": [
+        {
+          "city": "ST. LOUIS",
+          "count": 45
+        },
+        {
+          "city": "KANSAS CITY",
+          "count": 23
+        },
+        {
+          "city": "ST. JOSEPH",
+          "count": 20
+        },
+        {
+          "city": "HANNIBAL",
+          "count": 1
+        },
+        {
+          "city": "JOPLIN",
+          "count": 1
+        }
+      ],
+      "count": 90
+    },
+    {
+      "state": "MONTANA",
+      "cities": [
+        {
+          "city": "HELENA",
+          "count": 8
+        },
+        {
+          "city": "BUTTE CITY",
+          "count": 4
+        },
+        {
+          "city": "MISSOULA",
+          "count": 3
+        },
+        {
+          "city": "CITY OF BOZEMAN",
+          "count": 1
+        },
+        {
+          "city": "DEER LODGE",
+          "count": 1
+        },
+        {
+          "city": "FORT BENTON",
+          "count": 1
+        }
+      ],
+      "count": 18
+    },
+    {
+      "state": "NEBRASKA",
+      "cities": [
+        {
+          "city": "OMAHA",
+          "count": 17
+        },
+        {
+          "city": "LINCOLN",
+          "count": 2
+        },
+        {
+          "city": "CITY OF BEATRICE",
+          "count": 1
+        },
+        {
+          "city": "FALLS CITY",
+          "count": 1
+        },
+        {
+          "city": "NEBRASKA CITY",
+          "count": 1
+        }
+      ],
+      "count": 22
+    },
+    {
+      "state": "NEW HAMPSHIRE",
+      "cities": [
+        {
+          "city": "PORTSMOUTH",
+          "count": 3
+        },
+        {
+          "city": "CONCORD",
+          "count": 2
+        },
+        {
+          "city": "ROCHESTER",
+          "count": 2
+        },
+        {
+          "city": "CITY OF ANDOVER",
+          "count": 1
+        },
+        {
+          "city": "CLAREMONT",
+          "count": 1
+        },
+        {
+          "city": "DOVER",
+          "count": 1
+        },
+        {
+          "city": "LANCASTER",
+          "count": 1
+        },
+        {
+          "city": "LISBON",
+          "count": 1
+        },
+        {
+          "city": "MANCHESTER",
+          "count": 1
+        },
+        {
+          "city": "TILTON",
+          "count": 1
+        }
+      ],
+      "count": 14
+    },
+    {
+      "state": "NEW JERSEY",
+      "cities": [
+        {
+          "city": "NEWARK",
+          "count": 24
+        },
+        {
+          "city": "MORRISTOWN",
+          "count": 11
+        },
+        {
+          "city": "TRENTON",
+          "count": 10
+        },
+        {
+          "city": "ORANGE",
+          "count": 9
+        },
+        {
+          "city": "PATERSON",
+          "count": 9
+        },
+        {
+          "city": "PASSAIC",
+          "count": 8
+        },
+        {
+          "city": "HOBOKEN",
+          "count": 6
+        },
+        {
+          "city": "ENGLEWOOD",
+          "count": 5
+        },
+        {
+          "city": "PLAINFIELD",
+          "count": 4
+        },
+        {
+          "city": "BAYONNE",
+          "count": 3
+        },
+        {
+          "city": "ELIZABETH",
+          "count": 3
+        },
+        {
+          "city": "JERSEY CITY",
+          "count": 3
+        },
+        {
+          "city": "WEST ORANGE",
+          "count": 3
+        },
+        {
+          "city": "EAST ORANGE",
+          "count": 2
+        },
+        {
+          "city": "HACKENSACK",
+          "count": 2
+        },
+        {
+          "city": "LAKEWOOD",
+          "count": 2
+        },
+        {
+          "city": "NEW-BRUNSWICK",
+          "count": 2
+        },
+        {
+          "city": "WEEHAWKEN",
+          "count": 2
+        },
+        {
+          "city": "ASBURY",
+          "count": 1
+        },
+        {
+          "city": "ASBURY PARK",
+          "count": 1
+        },
+        {
+          "city": "BERNARDSVILLE",
+          "count": 1
+        },
+        {
+          "city": "BLAIRSTOWN",
+          "count": 1
+        },
+        {
+          "city": "BUTLER VILLAGE",
+          "count": 1
+        },
+        {
+          "city": "CAMDEN",
+          "count": 1
+        },
+        {
+          "city": "HARRISON",
+          "count": 1
+        },
+        {
+          "city": "HIGHLANDS",
+          "count": 1
+        },
+        {
+          "city": "HOLLYWOOD",
+          "count": 1
+        },
+        {
+          "city": "MADISON",
+          "count": 1
+        },
+        {
+          "city": "MONTCLAIR",
+          "count": 1
+        },
+        {
+          "city": "SCOTCH PLAINS",
+          "count": 1
+        },
+        {
+          "city": "SHORT HILLS",
+          "count": 1
+        },
+        {
+          "city": "SOMERVILLE",
+          "count": 1
+        },
+        {
+          "city": "SPOTTSWOOD",
+          "count": 1
+        },
+        {
+          "city": "WOODBURY",
+          "count": 1
+        }
+      ],
+      "count": 124
+    },
+    {
+      "state": "NEW MEXICO",
+      "cities": [
+        {
+          "city": "SANTA FE",
+          "count": 2
+        },
+        {
+          "city": "FORT BASCOM",
+          "count": 1
+        }
+      ],
+      "count": 3
+    },
+    {
+      "state": "NEW YORK",
+      "cities": [
+        {
+          "city": "NEW YORK CITY",
+          "count": 1102
+        },
+        {
+          "city": "BROOKLYN",
+          "count": 155
+        },
+        {
+          "city": "BUFFALO",
+          "count": 35
+        },
+        {
+          "city": "ROCHESTER",
+          "count": 24
+        },
+        {
+          "city": "TROY",
+          "count": 16
+        },
+        {
+          "city": "TARRYTOWN",
+          "count": 12
+        },
+        {
+          "city": "YONKERS",
+          "count": 10
+        },
+        {
+          "city": "SYRACUSE",
+          "count": 9
+        },
+        {
+          "city": "POUGHKEEPSIE",
+          "count": 8
+        },
+        {
+          "city": "IRVINGTON",
+          "count": 7
+        },
+        {
+          "city": "ITHACA",
+          "count": 7
+        },
+        {
+          "city": "CITY OF ALBANY",
+          "count": 6
+        },
+        {
+          "city": "UTICA",
+          "count": 6
+        },
+        {
+          "city": "ELMIRA",
+          "count": 5
+        },
+        {
+          "city": "OSWEGO",
+          "count": 5
+        },
+        {
+          "city": "AUBURN",
+          "count": 4
+        },
+        {
+          "city": "CORNING",
+          "count": 4
+        },
+        {
+          "city": "NEW-ROCHELLE",
+          "count": 4
+        },
+        {
+          "city": "BINGHAMTON",
+          "count": 3
+        },
+        {
+          "city": "DOBBS FERRY",
+          "count": 3
+        },
+        {
+          "city": "GOSHEN",
+          "count": 3
+        },
+        {
+          "city": "MAMARONECK",
+          "count": 3
+        },
+        {
+          "city": "NEWBURGH",
+          "count": 3
+        },
+        {
+          "city": "NYACK",
+          "count": 3
+        },
+        {
+          "city": "AURORA, CAYUGA COUNTY",
+          "count": 2
+        },
+        {
+          "city": "BALLSTON SPA",
+          "count": 2
+        },
+        {
+          "city": "BATH",
+          "count": 2
+        },
+        {
+          "city": "BAY SIDE",
+          "count": 2
+        },
+        {
+          "city": "CANANDAIGUA",
+          "count": 2
+        },
+        {
+          "city": "COOPERSTOWN",
+          "count": 2
+        },
+        {
+          "city": "FLUSHING",
+          "count": 2
+        },
+        {
+          "city": "HIGHLAND",
+          "count": 2
+        },
+        {
+          "city": "HUNT\u2019S POINT",
+          "count": 2
+        },
+        {
+          "city": "MIDDLETOWN",
+          "count": 2
+        },
+        {
+          "city": "PORT CHESTER",
+          "count": 2
+        },
+        {
+          "city": "PORT HENRY",
+          "count": 2
+        },
+        {
+          "city": "RYE",
+          "count": 2
+        },
+        {
+          "city": "SCHENECTADY",
+          "count": 2
+        },
+        {
+          "city": "SING SING",
+          "count": 2
+        },
+        {
+          "city": "AMSTERDAM",
+          "count": 1
+        },
+        {
+          "city": "ANDES",
+          "count": 1
+        },
+        {
+          "city": "BATAVIA",
+          "count": 1
+        },
+        {
+          "city": "BEDFORD",
+          "count": 1
+        },
+        {
+          "city": "BROCKPORT",
+          "count": 1
+        },
+        {
+          "city": "BRONXVILLE",
+          "count": 1
+        },
+        {
+          "city": "CHATEAUGAY LAKE",
+          "count": 1
+        },
+        {
+          "city": "CORTLAND",
+          "count": 1
+        },
+        {
+          "city": "DOLGEVILLE",
+          "count": 1
+        },
+        {
+          "city": "EAST CHESTER",
+          "count": 1
+        },
+        {
+          "city": "GARDEN CITY",
+          "count": 1
+        },
+        {
+          "city": "GENEVA",
+          "count": 1
+        },
+        {
+          "city": "GLENS FALLS",
+          "count": 1
+        },
+        {
+          "city": "HOOSICK FALLS",
+          "count": 1
+        },
+        {
+          "city": "ISLIP",
+          "count": 1
+        },
+        {
+          "city": "KINGSTON",
+          "count": 1
+        },
+        {
+          "city": "LANSINGBURGH",
+          "count": 1
+        },
+        {
+          "city": "LASALLE",
+          "count": 1
+        },
+        {
+          "city": "MANHANSET",
+          "count": 1
+        },
+        {
+          "city": "NEW-HAMBURGH",
+          "count": 1
+        },
+        {
+          "city": "NORTHPORT",
+          "count": 1
+        },
+        {
+          "city": "ONEONTA",
+          "count": 1
+        },
+        {
+          "city": "OYSTER BAY",
+          "count": 1
+        },
+        {
+          "city": "PAINTED POST",
+          "count": 1
+        },
+        {
+          "city": "PAWLING",
+          "count": 1
+        },
+        {
+          "city": "PEEKSKILL",
+          "count": 1
+        },
+        {
+          "city": "PORT JERVIS",
+          "count": 1
+        },
+        {
+          "city": "RHINEBECK",
+          "count": 1
+        },
+        {
+          "city": "RIVERDALE",
+          "count": 1
+        },
+        {
+          "city": "ROCK CITY",
+          "count": 1
+        },
+        {
+          "city": "RONDOUT",
+          "count": 1
+        },
+        {
+          "city": "ROSSVILLE",
+          "count": 1
+        },
+        {
+          "city": "ROTTERDAM",
+          "count": 1
+        },
+        {
+          "city": "SARATOGA",
+          "count": 1
+        },
+        {
+          "city": "TIVOLI",
+          "count": 1
+        },
+        {
+          "city": "WASSAIC",
+          "count": 1
+        },
+        {
+          "city": "WATERVILLE",
+          "count": 1
+        },
+        {
+          "city": "WATKINS",
+          "count": 1
+        },
+        {
+          "city": "WEEDSPORT",
+          "count": 1
+        },
+        {
+          "city": "WESTCHESTER",
+          "count": 1
+        },
+        {
+          "city": "WOODSIDE",
+          "count": 1
+        }
+      ],
+      "count": 1508
+    },
+    {
+      "state": "NORTH CAROLINA",
+      "cities": [
+        {
+          "city": "DURHAM",
+          "count": 6
+        },
+        {
+          "city": "BURLINGTON",
+          "count": 3
+        },
+        {
+          "city": "WILMINGTON",
+          "count": 2
+        },
+        {
+          "city": "CHARLOTTE",
+          "count": 1
+        },
+        {
+          "city": "CITY OF ASHEVILLE",
+          "count": 1
+        },
+        {
+          "city": "RALEIGH",
+          "count": 1
+        }
+      ],
+      "count": 14
+    },
+    {
+      "state": "NORTH DAKOTA",
+      "cities": [
+        {
+          "city": "FARGO",
+          "count": 1
+        }
+      ],
+      "count": 1
+    },
+    {
+      "state": "OHIO",
+      "cities": [
+        {
+          "city": "CINCINNATI",
+          "count": 71
+        },
+        {
+          "city": "CLEVELAND",
+          "count": 69
+        },
+        {
+          "city": "COLUMBUS",
+          "count": 13
+        },
+        {
+          "city": "TOLEDO",
+          "count": 13
+        },
+        {
+          "city": "SANDUSKY",
+          "count": 9
+        },
+        {
+          "city": "CITY OF AKRON",
+          "count": 7
+        },
+        {
+          "city": "SPRINGFIELD",
+          "count": 6
+        },
+        {
+          "city": "DAYTON",
+          "count": 5
+        },
+        {
+          "city": "MANSFIELD",
+          "count": 3
+        },
+        {
+          "city": "YOUNGSTOWN",
+          "count": 3
+        },
+        {
+          "city": "LIMA",
+          "count": 2
+        },
+        {
+          "city": "CANTON",
+          "count": 1
+        },
+        {
+          "city": "HARPSTER",
+          "count": 1
+        },
+        {
+          "city": "MASSILLON",
+          "count": 1
+        },
+        {
+          "city": "MIDDLETOWN",
+          "count": 1
+        },
+        {
+          "city": "WARREN",
+          "count": 1
+        },
+        {
+          "city": "WOOSTER",
+          "count": 1
+        }
+      ],
+      "count": 207
+    },
+    {
+      "state": "OREGON",
+      "cities": [
+        {
+          "city": "PORTLAND",
+          "count": 16
+        },
+        {
+          "city": "ASTORIA",
+          "count": 1
+        },
+        {
+          "city": "SALEM",
+          "count": 1
+        }
+      ],
+      "count": 18
+    },
+    {
+      "state": "PENNSYLVANIA",
+      "cities": [
+        {
+          "city": "CITY OF PHILADELPHIA",
+          "count": 209
+        },
+        {
+          "city": "ALLEGHENY CITY",
+          "count": 44
+        },
+        {
+          "city": "PITTSBURG",
+          "count": 44
+        },
+        {
+          "city": "ERIE",
+          "count": 8
+        },
+        {
+          "city": "WILKES-BARRE",
+          "count": 8
+        },
+        {
+          "city": "HARRISBURG",
+          "count": 5
+        },
+        {
+          "city": "TITUSVILLE",
+          "count": 5
+        },
+        {
+          "city": "WILLIAMSPORT",
+          "count": 4
+        },
+        {
+          "city": "BRADFORD",
+          "count": 3
+        },
+        {
+          "city": "CORNWALL",
+          "count": 3
+        },
+        {
+          "city": "MAUCH CHUNK",
+          "count": 3
+        },
+        {
+          "city": "OIL CITY",
+          "count": 3
+        },
+        {
+          "city": "SCRANTON",
+          "count": 3
+        },
+        {
+          "city": "TIDIOUTE",
+          "count": 3
+        },
+        {
+          "city": "BELLEFONTE",
+          "count": 2
+        },
+        {
+          "city": "CHESTER",
+          "count": 2
+        },
+        {
+          "city": "FOXBURG",
+          "count": 2
+        },
+        {
+          "city": "HAZLETON",
+          "count": 2
+        },
+        {
+          "city": "LANCASTER",
+          "count": 2
+        },
+        {
+          "city": "POTTSVILLE",
+          "count": 2
+        },
+        {
+          "city": "SAINT MARY\u2019S",
+          "count": 2
+        },
+        {
+          "city": "YORK",
+          "count": 2
+        },
+        {
+          "city": "BERWICK",
+          "count": 1
+        },
+        {
+          "city": "CARLISLE",
+          "count": 1
+        },
+        {
+          "city": "CONNELLSVILLE",
+          "count": 1
+        },
+        {
+          "city": "CURWENSVILLE",
+          "count": 1
+        },
+        {
+          "city": "DANVILLE",
+          "count": 1
+        },
+        {
+          "city": "DAWSON",
+          "count": 1
+        },
+        {
+          "city": "DUBOIS",
+          "count": 1
+        },
+        {
+          "city": "EASTON",
+          "count": 1
+        },
+        {
+          "city": "FRANKLIN",
+          "count": 1
+        },
+        {
+          "city": "KINGSTON",
+          "count": 1
+        },
+        {
+          "city": "LEWISBURG",
+          "count": 1
+        },
+        {
+          "city": "MIDDLETOWN",
+          "count": 1
+        },
+        {
+          "city": "McKEESPORT",
+          "count": 1
+        },
+        {
+          "city": "READING",
+          "count": 1
+        },
+        {
+          "city": "SCOTTDALE",
+          "count": 1
+        },
+        {
+          "city": "SHIPPENSBURG",
+          "count": 1
+        },
+        {
+          "city": "STARUCCA",
+          "count": 1
+        },
+        {
+          "city": "WASHINGTON",
+          "count": 1
+        }
+      ],
+      "count": 379
+    },
+    {
+      "state": "RHODE ISLAND",
+      "cities": [
+        {
+          "city": "PROVIDENCE",
+          "count": 25
+        },
+        {
+          "city": "CITY OF NEWPORT",
+          "count": 15
+        },
+        {
+          "city": "PAWTUCKET",
+          "count": 3
+        },
+        {
+          "city": "PASCOAG",
+          "count": 1
+        },
+        {
+          "city": "PEACEDALE",
+          "count": 1
+        },
+        {
+          "city": "WOONSOCKET",
+          "count": 1
+        }
+      ],
+      "count": 46
+    },
+    {
+      "state": "SOUTH CAROLINA",
+      "cities": [
+        {
+          "city": "CHARLESTON",
+          "count": 7
+        },
+        {
+          "city": "ABBEVILLE",
+          "count": 1
+        },
+        {
+          "city": "COLUMBIA",
+          "count": 1
+        }
+      ],
+      "count": 9
+    },
+    {
+      "state": "TENNESSEE",
+      "cities": [
+        {
+          "city": "MEMPHIS",
+          "count": 11
+        },
+        {
+          "city": "NASHVILLE",
+          "count": 3
+        },
+        {
+          "city": "CEDAR HILL",
+          "count": 1
+        },
+        {
+          "city": "GRAHAM\u2019S STATION",
+          "count": 1
+        },
+        {
+          "city": "KNOXVILLE",
+          "count": 1
+        }
+      ],
+      "count": 17
+    },
+    {
+      "state": "TEXAS",
+      "cities": [
+        {
+          "city": "GALVESTON",
+          "count": 18
+        },
+        {
+          "city": "SAN ANTONIO",
+          "count": 14
+        },
+        {
+          "city": "DALLAS",
+          "count": 10
+        },
+        {
+          "city": "FORT WORTH",
+          "count": 3
+        },
+        {
+          "city": "HOUSTON",
+          "count": 3
+        },
+        {
+          "city": "CITY OF AUSTIN",
+          "count": 2
+        },
+        {
+          "city": "SAN DIEGO",
+          "count": 2
+        },
+        {
+          "city": "BONHAM",
+          "count": 1
+        },
+        {
+          "city": "COLUMBUS",
+          "count": 1
+        },
+        {
+          "city": "DENISON",
+          "count": 1
+        },
+        {
+          "city": "LAREDO",
+          "count": 1
+        },
+        {
+          "city": "WACO",
+          "count": 1
+        }
+      ],
+      "count": 57
+    },
+    {
+      "state": "UTAH",
+      "cities": [
+        {
+          "city": "CITY OF OGDEN",
+          "count": 8
+        },
+        {
+          "city": "SALT LAKE CITY",
+          "count": 8
+        }
+      ],
+      "count": 16
+    },
+    {
+      "state": "VERMONT",
+      "cities": [
+        {
+          "city": "RUTLAND",
+          "count": 4
+        },
+        {
+          "city": "CITY OF BRATTLEBORO",
+          "count": 2
+        },
+        {
+          "city": "ST. JOHNSBURY",
+          "count": 2
+        },
+        {
+          "city": "BURLINGTON",
+          "count": 1
+        },
+        {
+          "city": "LYNDONVILLE",
+          "count": 1
+        },
+        {
+          "city": "MONTPELIER",
+          "count": 1
+        },
+        {
+          "city": "ST. ALBANS",
+          "count": 1
+        },
+        {
+          "city": "WOODSTOCK",
+          "count": 1
+        }
+      ],
+      "count": 13
+    },
+    {
+      "state": "VIRGINIA",
+      "cities": [
+        {
+          "city": "RICHMOND",
+          "count": 16
+        },
+        {
+          "city": "BLAND COURTHOUSE",
+          "count": 1
+        },
+        {
+          "city": "ELK GARDEN",
+          "count": 1
+        },
+        {
+          "city": "GLOUCESTER",
+          "count": 1
+        },
+        {
+          "city": "LYNCHBURG",
+          "count": 1
+        },
+        {
+          "city": "NORFOLK",
+          "count": 1
+        },
+        {
+          "city": "PETERSBURG",
+          "count": 1
+        },
+        {
+          "city": "ROANOKE CITY",
+          "count": 1
+        }
+      ],
+      "count": 23
+    },
+    {
+      "state": "WASHINGTON",
+      "cities": [
+        {
+          "city": "CITY OF SEATTLE",
+          "count": 12
+        },
+        {
+          "city": "TACOMA",
+          "count": 7
+        },
+        {
+          "city": "SPOKANE FALLS",
+          "count": 6
+        },
+        {
+          "city": "WALLA WALLA",
+          "count": 2
+        }
+      ],
+      "count": 27
+    },
+    {
+      "state": "WEST VIRGINIA",
+      "cities": [
+        {
+          "city": "WHEELING",
+          "count": 3
+        },
+        {
+          "city": "PARKERSBURG",
+          "count": 1
+        },
+        {
+          "city": "PIEDMONT",
+          "count": 1
+        }
+      ],
+      "count": 5
+    },
+    {
+      "state": "WISCONSIN",
+      "cities": [
+        {
+          "city": "MILWAUKEE",
+          "count": 29
+        },
+        {
+          "city": "EAU CLAIRE",
+          "count": 6
+        },
+        {
+          "city": "LA CROSSE",
+          "count": 6
+        },
+        {
+          "city": "RACINE",
+          "count": 5
+        },
+        {
+          "city": "NEENAH",
+          "count": 4
+        },
+        {
+          "city": "CITY OF ASHLAND",
+          "count": 3
+        },
+        {
+          "city": "FOND DU LAC",
+          "count": 3
+        },
+        {
+          "city": "OSHKOSH",
+          "count": 3
+        },
+        {
+          "city": "MARINETTE",
+          "count": 2
+        },
+        {
+          "city": "WAUSAU",
+          "count": 2
+        },
+        {
+          "city": "CHIPPEWA FALLS",
+          "count": 1
+        },
+        {
+          "city": "MADISON",
+          "count": 1
+        },
+        {
+          "city": "MENOMINEE",
+          "count": 1
+        },
+        {
+          "city": "WAUKESHA",
+          "count": 1
+        },
+        {
+          "city": "WHITEWATER",
+          "count": 1
+        }
+      ],
+      "count": 68
+    },
+    {
+      "state": "WYOMING",
+      "cities": [
+        {
+          "city": "CITY OF CHEYENNE",
+          "count": 1
+        }
+      ],
+      "count": 1
+    }
+  ]
+}

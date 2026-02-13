@@ -1,0 +1,4 @@
+/stats /overview/ 301
+/stats/* /overview/ 301
+/analysis /overview/ 301
+/analysis/* /overview/ 301
