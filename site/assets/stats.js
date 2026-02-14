@@ -1,5 +1,6 @@
 import {
   byId,
+  buildQuery,
   displayCity,
   fetchJson,
   formatNumber,
@@ -17,6 +18,20 @@ const stateSortName = byId("state-sort-name");
 const stateSortCount = byId("state-sort-count");
 const citySortName = byId("city-sort-name");
 const citySortCount = byId("city-sort-count");
+
+const directoryUrl = (params) => {
+  const query = buildQuery(params);
+  return query ? `/directory/?${query}` : "/directory/";
+};
+
+const isModifiedClick = (event) =>
+  event.metaKey || event.ctrlKey || event.shiftKey || event.altKey;
+
+const handleRowNavigate = (event, params) => {
+  if (event.defaultPrevented || isModifiedClick(event)) return;
+  if (event.target.closest("a")) return;
+  window.location.assign(directoryUrl(params));
+};
 
 let statesCache = [];
 let currentState = "";
@@ -75,9 +90,17 @@ const renderStateTotals = (states) => {
   stateBody.innerHTML = states
     .map(
       (state) => `
-      <tr>
-        <td>${escapeHtml(state.state)}</td>
-        <td>${formatNumber(state.count || 0)}</td>
+      <tr class="table-row-link" data-state="${escapeHtml(state.state)}">
+        <td>
+          <a class="table-link" href="${escapeHtml(directoryUrl({ state: state.state }))}">
+            ${escapeHtml(state.state)}
+          </a>
+        </td>
+        <td>
+          <a class="table-link" href="${escapeHtml(directoryUrl({ state: state.state }))}">
+            ${formatNumber(state.count || 0)}
+          </a>
+        </td>
       </tr>
     `
     )
@@ -98,12 +121,29 @@ const renderCityTotals = (stateEntry) => {
   const sortedCities = sortRows(stateEntry.cities, citySort.key, citySort.dir);
   cityBody.innerHTML = sortedCities
     .map(
-      (city) => `
-      <tr>
-        <td>${escapeHtml(displayCity(city.city))}</td>
-        <td>${formatNumber(city.count)}</td>
+      (city) => {
+        const cityValue = city.city ?? "";
+        return `
+      <tr class="table-row-link" data-state="${escapeHtml(
+        stateEntry.state
+      )}" data-city="${escapeHtml(String(cityValue))}">
+        <td>
+          <a class="table-link" href="${escapeHtml(
+            directoryUrl({ state: stateEntry.state, city: cityValue })
+          )}">
+            ${escapeHtml(displayCity(city.city))}
+          </a>
+        </td>
+        <td>
+          <a class="table-link" href="${escapeHtml(
+            directoryUrl({ state: stateEntry.state, city: cityValue })
+          )}">
+            ${formatNumber(city.count)}
+          </a>
+        </td>
       </tr>
-    `
+    `;
+      }
     )
     .join("");
 };
@@ -211,3 +251,20 @@ const init = async () => {
 };
 
 init();
+
+stateBody.addEventListener("click", (event) => {
+  const row = event.target.closest("tr[data-state]");
+  if (!row || !stateBody.contains(row)) return;
+  const state = row.dataset.state;
+  if (!state) return;
+  handleRowNavigate(event, { state });
+});
+
+cityBody.addEventListener("click", (event) => {
+  const row = event.target.closest("tr[data-state][data-city]");
+  if (!row || !cityBody.contains(row)) return;
+  const state = row.dataset.state;
+  const city = row.dataset.city;
+  if (!state) return;
+  handleRowNavigate(event, { state, city });
+});

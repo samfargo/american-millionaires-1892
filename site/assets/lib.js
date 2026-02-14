@@ -24,18 +24,85 @@ export const debounce = (fn, wait = 80) => {
   };
 };
 
+const SITE_HEADER = {
+  title: "American Millionaires, 1892",
+  subtitle:
+    "Digitzed record of The Tribune Monthly's American Millionaires edition.",
+  nav: [
+    { href: "/", label: "Home" },
+    { href: "/directory/", label: "Directory" },
+    { href: "/notable/", label: "Notable Names" },
+    { href: "/overview/", label: "Overview" },
+    { href: "/gallery/", label: "Gallery" },
+    { href: "/contact/", label: "Contact" },
+  ],
+};
+
+const buildSiteHeader = () => {
+  const fragment = document.createDocumentFragment();
+
+  const brand = document.createElement("div");
+  brand.className = "brand";
+
+  const titleLink = document.createElement("a");
+  titleLink.className = "brand__title";
+  titleLink.href = "/";
+  titleLink.textContent = SITE_HEADER.title;
+
+  const subtitle = document.createElement("div");
+  subtitle.className = "brand__subtitle";
+  subtitle.textContent = SITE_HEADER.subtitle;
+
+  brand.append(titleLink, subtitle);
+
+  const nav = document.createElement("nav");
+  nav.className = "site-nav";
+  nav.setAttribute("aria-label", "Primary");
+
+  SITE_HEADER.nav.forEach((item) => {
+    const link = document.createElement("a");
+    link.href = item.href;
+    link.textContent = item.label;
+    nav.appendChild(link);
+  });
+
+  fragment.append(brand, nav);
+  return fragment;
+};
+
+const ensureSiteHeader = () => {
+  const header =
+    document.querySelector("[data-site-header]") ||
+    document.querySelector(".site-header");
+  if (!header) return;
+  if (header.dataset.navReady === "true") return;
+  const content = buildSiteHeader();
+  if (typeof header.replaceChildren === "function") {
+    header.replaceChildren(content);
+  } else {
+    header.innerHTML = "";
+    header.appendChild(content);
+  }
+  header.dataset.navReady = "true";
+};
+
 export const setActiveNav = () => {
+  ensureSiteHeader();
   const path = window.location.pathname;
   const navLinks = document.querySelectorAll(".site-nav a");
   navLinks.forEach((link) => {
     const href = link.getAttribute("href");
     if (!href) return;
+    link.classList.remove("is-active");
+    link.removeAttribute("aria-current");
     if (href === "/" && path === "/") {
       link.classList.add("is-active");
+      link.setAttribute("aria-current", "page");
       return;
     }
     if (href !== "/" && path.startsWith(href)) {
       link.classList.add("is-active");
+      link.setAttribute("aria-current", "page");
     }
   });
 };

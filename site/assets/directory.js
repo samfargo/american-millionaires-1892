@@ -18,6 +18,10 @@ const resultsCount = byId("results-count");
 
 let people = [];
 let stateCity = [];
+const searchParams = new URLSearchParams(window.location.search);
+const initialState = searchParams.get("state") || "";
+const initialCity = searchParams.get("city") || "";
+const initialQuery = searchParams.get("q") || "";
 
 const escapeHtml = (value) =>
   value
@@ -102,6 +106,10 @@ const init = async () => {
   setPageReady();
   setupBackToTop();
 
+  if (initialQuery) {
+    searchInput.value = initialQuery;
+  }
+
   try {
     const [peopleData, stateCityData] = await Promise.all([
       fetchJson(recordsUrl("people_index.json")),
@@ -119,6 +127,13 @@ const init = async () => {
             `<option value="${state.state}">${state.state} (${state.count})</option>`
         )
         .join("");
+
+    if (initialState && stateCity.some((state) => state.state === initialState)) {
+      stateSelect.value = initialState;
+      updateCityOptions(initialState, initialCity);
+    } else {
+      updateCityOptions("");
+    }
 
     applyFilters();
   } catch (error) {

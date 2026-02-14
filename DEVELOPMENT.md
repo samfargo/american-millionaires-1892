@@ -139,5 +139,4 @@ On `/overview`:
 
 ## Future
 1. Add a section about states with no millionaires.
-2. Add notable names section: vanderbilt, rockefeller, jp morgan, twain,
-3. Add Contact tab.
+2. Add Contact form tab where someone can email me.
