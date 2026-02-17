@@ -36,7 +36,11 @@
           </section>
 
           <section class="contact-grid">
-            <form class="contact-card contact-form" method="post" action="/contact/">
+            <form
+              class="contact-card contact-form"
+              method="post"
+              action="https://formspree.io/f/mlgwnqqv"
+            >
               <div class="form-field">
                 <label for="contact-name">Name</label>
                 <input
@@ -68,21 +72,9 @@
               </div>
               <div class="contact-actions">
                 <button class="btn" type="submit">Send message</button>
-                <span class="contact-hint">Your note goes directly to the site owner.</span>
               </div>
+              <div class="contact-status" role="status" aria-live="polite" hidden></div>
             </form>
-
-            <aside class="contact-card contact-aside">
-              <h2 class="contact-title">Helpful details</h2>
-              <p class="muted">
-                If you reference a specific entry, share the name, city, or scan page so
-                I can find it quickly.
-              </p>
-              <div class="note">
-                This project is built from The Tribune Monthly's June 1892 edition.
-                Corrections and context are appreciated.
-              </div>
-            </aside>
           </section>
         </main>
       </div>

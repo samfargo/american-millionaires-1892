@@ -396,6 +396,31 @@ select:focus {
   color: var(--muted);
 }
 
+.contact-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 8px;
+  padding: 10px 12px;
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  font-size: 14px;
+  color: var(--ink);
+}
+
+.contact-status.is-success {
+  border-color: rgba(19, 108, 67, 0.35);
+  background: rgba(19, 108, 67, 0.08);
+  color: #136c43;
+}
+
+.contact-status.is-error {
+  border-color: rgba(166, 30, 40, 0.35);
+  background: rgba(166, 30, 40, 0.08);
+  color: #a61e28;
+}
+
 .contact-aside {
   display: grid;
   gap: 12px;
