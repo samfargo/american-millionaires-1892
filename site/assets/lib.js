@@ -30,9 +30,9 @@ const SITE_HEADER = {
     "Digitzed record of The Tribune Monthly's American Millionaires edition.",
   nav: [
     { href: "/", label: "Home" },
+    { href: "/overview/", label: "Overview" },
     { href: "/directory/", label: "Directory" },
     { href: "/notable/", label: "Notable Names" },
-    { href: "/overview/", label: "Overview" },
     { href: "/gallery/", label: "Gallery" },
     { href: "/contact/", label: "Contact" },
   ],
@@ -116,8 +116,9 @@ export const buildQuery = (params) => {
 };
 
 export const displayCity = (value) => {
+  if (value === "") return "";
   if (!value) return "Unknown";
-  return value.toLowerCase() === "null" ? "Unknown" : value;
+  return value.toLowerCase() === "null" ? "" : value;
 };
 
 export const parsePath = () => window.location.pathname.split("/").filter(Boolean);

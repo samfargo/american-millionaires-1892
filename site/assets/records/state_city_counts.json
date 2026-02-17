@@ -212,7 +212,7 @@
       "state": "DISTRICT OF COLUMBIA",
       "cities": [
         {
-          "city": "null",
+          "city": "",
           "count": 32
         }
       ],

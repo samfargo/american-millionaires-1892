@@ -19,9 +19,9 @@
           </div>
           <nav class="site-nav" aria-label="Primary">
             <a href="/">Home</a>
+            <a href="/overview/">Overview</a>
             <a href="/directory/">Directory</a>
             <a href="/notable/">Notable Names</a>
-            <a href="/overview/">Overview</a>
             <a href="/gallery/">Gallery</a>
             <a href="/contact/">Contact</a>
           </nav>
@@ -31,36 +31,9 @@
           <section>
             <h1 class="section-title">Overview</h1>
             <div class="legend">
-              <a class="pill" href="#state-totals">Totals by state</a>
               <a class="pill" href="#city-totals">Totals by city</a>
+              <a class="pill" href="#state-totals">Totals by state</a>
               <a class="pill" href="#industry-totals">Totals by industry</a>
-            </div>
-          </section>
-
-          <section class="stack" id="state-totals">
-            <h2 class="section-title" style="margin-bottom: 6px;">Totals by state</h2>
-            <div class="table-wrap">
-              <table>
-                <thead>
-                  <tr>
-                    <th>
-                      <button class="sort-button" id="state-sort-name" type="button">
-                        State
-                      </button>
-                    </th>
-                    <th>
-                      <button class="sort-button" id="state-sort-count" type="button">
-                        Count
-                      </button>
-                    </th>
-                  </tr>
-                </thead>
-                <tbody id="state-body">
-                  <tr>
-                    <td colspan="2" class="empty-state">Loading state totals...</td>
-                  </tr>
-                </tbody>
-              </table>
             </div>
           </section>
 
@@ -97,6 +70,33 @@
                     <td colspan="2" class="empty-state">
                       Choose a state to view city totals.
                     </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+
+          <section class="stack" id="state-totals">
+            <h2 class="section-title" style="margin-bottom: 6px;">Totals by state</h2>
+            <div class="table-wrap">
+              <table>
+                <thead>
+                  <tr>
+                    <th>
+                      <button class="sort-button" id="state-sort-name" type="button">
+                        State
+                      </button>
+                    </th>
+                    <th>
+                      <button class="sort-button" id="state-sort-count" type="button">
+                        Count
+                      </button>
+                    </th>
+                  </tr>
+                </thead>
+                <tbody id="state-body">
+                  <tr>
+                    <td colspan="2" class="empty-state">Loading state totals...</td>
                   </tr>
                 </tbody>
               </table>

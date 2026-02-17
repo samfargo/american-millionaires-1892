@@ -59,7 +59,7 @@ def read_counts(path: Path) -> tuple[Counter[str], Counter[tuple[str, str]]]:
             if not state:
                 continue
 
-            city_label = city if city else "(blank)"
+            city_label = city
             state_counts[state] += 1
             state_city_counts[(state, city_label)] += 1
 
